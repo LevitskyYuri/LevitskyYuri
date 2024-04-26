@@ -1,0 +1,31 @@
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+false / 13
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+orange
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+orange
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+apple / true
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const isPalindrome = str => str === str.split("").reverse().join("");
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+function addNumbers(a, b) { return a + b; }
+const findSmallestNumber = numbers => Math.min(...numbers);
+
+63,5,81,42,87,94,59,53,15,66,10,15,95,38,65,47,29,44,6,80,6,84,15,50,19,19,80,6,99,82,58,82,8,59,14,58,12,61,66,75,96,97,97 / 20
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+false / orange
+const getUniqueValues = array => [...new Set(array)];
+
